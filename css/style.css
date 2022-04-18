@@ -21,6 +21,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 24px;
 }
 
 .shop-by {
@@ -43,5 +44,47 @@ ul {
 }
 
 .shop-collections-button {
+  max-width: 400px;
+}
+
+.image-slider {
+  display: flex;
+  justify-content: center;
+}
+
+.sale-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: space-evenly;
+}
+
+.sale-product-display {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.product-title {
+  display: flex;
+  justify-content: left;
+  text-align: left;
+}
+
+.sale-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.sale-button {
   max-width: 400px;
 }
