@@ -17,7 +17,13 @@ ul {
   align-items: center;
 }
 
-.shop-by-category {
+.collections-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shop-by {
   display: flex;
   justify-content: space-evenly;
   flex: 1;
@@ -25,13 +31,17 @@ ul {
   gap: 12px;
 }
 
-.category-card {
+.shop-by-card {
   display: flex;
   flex-direction: column;
   align-items: center;
   flex: 0;
 }
 
-.cat-card-link {
+.card-link {
   text-align: center;
+}
+
+.shop-collections-button {
+  max-width: 400px;
 }
